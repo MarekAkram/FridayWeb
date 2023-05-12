@@ -1,0 +1,109 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+  align-items: center;
+}
+.hero_section {
+  background-size: cover;
+  background-image:url(../img/mountain.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 250px;
+  margin: 20px 50px;
+  border-radius: 15px;
+  
+}
+.menu {
+  padding-right: 50px;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+}
+.btn_b {
+  background-color: black;
+  color: #fff;
+}
+.btn_w {
+  background-color: #fff;
+  color: black;
+}
+.btndiv {
+  padding-top: 50px;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+.blokai {
+  display: flex;
+  align-items: center;
+}
+.block {
+  width: 150px;
+  padding: 40px;
+  text-align: center;
+}
+
+.icon {
+  width: 150px;
+  height: 150px;
+}
+.duk_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.duk_block {
+  width: 200px;
+  padding: 40px;
+  text-align: center;
+}
+.dukk {
+  display: flex;
+  flex-direction: row;
+}
+.radius {
+  border-radius: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+.colorf7 {
+  background-color: #F7F7F7;
+}
+@media (max-width:560px){
+  .hero_section p { 
+    width: 150px;
+    text-align: center;
+}
+.btn {
+  width: 150px;
+}
+.blokai {
+  flex-direction: column;
+}
+.dukk {
+  flex-direction: column;
+}
+.dukbtn {
+  display: flex;
+  flex-direction: column;
+ 
+}
+}
+
+
+
+
