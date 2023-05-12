@@ -6,14 +6,13 @@ header {
 }
 .hero_section {
   background-size: cover;
-  background-image:url(../img/mountain.jpg);
+  background-image: url(../img/mountain.jpg);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 100px 250px;
   margin: 20px 50px;
   border-radius: 15px;
-  
 }
 .menu {
   padding-right: 50px;
@@ -81,29 +80,24 @@ a {
   font-weight: bold;
 }
 .colorf7 {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
-@media (max-width:560px){
-  .hero_section p { 
+@media (max-width: 560px) {
+  .hero_section p {
     width: 150px;
     text-align: center;
+  }
+  .btn {
+    width: 150px;
+  }
+  .blokai {
+    flex-direction: column;
+  }
+  .dukk {
+    flex-direction: column;
+  }
+  .dukbtn {
+    display: flex;
+    flex-direction: column;
+  }
 }
-.btn {
-  width: 150px;
-}
-.blokai {
-  flex-direction: column;
-}
-.dukk {
-  flex-direction: column;
-}
-.dukbtn {
-  display: flex;
-  flex-direction: column;
- 
-}
-}
-
-
-
-

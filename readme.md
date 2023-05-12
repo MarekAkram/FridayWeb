@@ -7,7 +7,7 @@ Friday challenge
 🌟 About
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://github.com/MarekAkram/Fridaychallenge3
+Site published at:https://github.com/MarekAkram/FridayWeb
 
 Design: FridayWeb
 
