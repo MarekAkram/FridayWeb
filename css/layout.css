@@ -82,6 +82,27 @@ a {
 .colorf7 {
   background-color: #f7f7f7;
 }
+
+.newslet {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.adress {
+  
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+
 @media (max-width: 560px) {
   .hero_section p {
     width: 150px;
